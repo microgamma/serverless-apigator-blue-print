@@ -5,7 +5,7 @@ Use this package to get your microservice up and running using Typescript, Serve
 ## How to use  
 - clone this repo  
 - _install (we suggest to use yarn)_:`yarn`
-- `personalize`: edit `serverless.yml`'s service name
+- _personalize_: edit `serverless.yml`'s service name
 	```yaml  
 	service: my-first-apigator # NOTE: update this with your service name  
 	```  
