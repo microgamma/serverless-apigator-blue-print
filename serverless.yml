@@ -1,3 +1,5 @@
+org: davidecavaliere
+app: my-first-apigator
 service: my-first-apigator # NOTE: update this with your service name
 
 provider:
