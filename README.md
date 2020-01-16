@@ -50,3 +50,10 @@ Add serverless monitoring. Check on serverless.com how to enable monitoring
   
  provider:  
 ```
+
+#TBD: 
+ - migrate testing to jest
+ - write unit test for lambda
+ - add example for dynamodb
+ - add example for mongodb
+ - add integration tests examples
