@@ -1,7 +1,6 @@
 import { Endpoint, Lambda } from '@microgamma/apigator';
 
 @Endpoint({
-  basePath: '/',
   cors: true,
   name: 'my-first-service',
   private: false
