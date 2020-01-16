@@ -1,0 +1,16 @@
+service: my-first-apigator # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: eu-west-2
+
+
+plugins:
+  - '@microgamma/serverless-apigator'
+
+custom:
+  apigator:
+    entrypoint: build/main/handler
+    buildFolder: /home/davide/dev/my-first-apigator/build/main
