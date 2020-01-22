@@ -38,18 +38,7 @@ Use this package to get your microservice up and running using Typescript, Serve
 	```  
 - open your browser and hit that endpoint ;) or `curl https://xxxxxxx.execute-api.eu-west-2.amazonaws.com/dev/`
   
-### Extra points  
-Add serverless monitoring. Check on serverless.com how to enable monitoring  
-```diff  
---- a/serverless.yml  
-+++ b/serverless.yml  
-@@ -1,3 +1,5 @@  
-+org: myorg  
-+app: myapp
- service: my-first-apigator # NOTE: update this with your service name  
-  
- provider:  
-```
+
 
 #TBD: 
  - migrate testing to jest
