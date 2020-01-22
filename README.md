@@ -6,7 +6,7 @@ Use this package to get your microservice up and running using Typescript, Serve
 - clone this repo  
 - _install (we suggest to use yarn)_:`yarn`
 - _personalize_: edit `serverless.yml`'s service name
-	```yaml  
+	```yaml
 	service: my-first-apigator # NOTE: update this with your service name  
 	```  
 
@@ -38,6 +38,12 @@ Use this package to get your microservice up and running using Typescript, Serve
 	```  
 - open your browser and hit that endpoint ;) or `curl https://xxxxxxx.execute-api.eu-west-2.amazonaws.com/dev/`
   
+ ## Run locally within express.js
+ ```
+ environment=local yarn ts-node src/express.server.ts
+ ```
+ 
+ 
 
 
 #TBD: 
