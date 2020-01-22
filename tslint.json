@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:latest", "tslint-config-prettier", "tslint-immutable"],
+  "extends": ["tslint:latest", "tslint-immutable"],
   "rules": {
     "interface-name": [true, "never-prefix"],
     // TODO: allow devDependencies only in **/*.spec.ts files:
@@ -16,7 +16,10 @@
     "readonly-array": true,
     "no-let": true,
     "no-object-mutation": true,
-    "no-delete": true
+    "no-delete": true,
+
+    "quotemark": [true, "single"],
+    "trailing-comma": false
 
     /* end tslint-immutable rules */
 
