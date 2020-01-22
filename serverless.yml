@@ -16,6 +16,7 @@ custom:
   apigator:
     entrypoint: handler
     buildFolder: build/main
+    service: my-first.service
 
 package:
   exclude:
