@@ -319,39 +319,39 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/nyc-config-typescript/-/nyc-config-typescript-0.1.3.tgz#944d15b3ebdb71f963a628daffaa25ade981bb86"
   integrity sha512-EzRFg92bRSD1W/zeuNkeGwph0nkWf+pP2l/lYW4/5hav7RjKKBN5kV1Ix7Tvi0CMu3pC4Wi/U7rNisiJMR3ORg==
 
-"@microgamma/apigator@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@microgamma/apigator/-/apigator-1.15.0.tgz#a1eb945ec75ac03213ff91414ea001aba0da4653"
-  integrity sha512-2uhoqileL8jH37IbuZLkpY738ghpDT+cWuTfd7KbPpUBbLAlXIG5RGimXiyAz5eHEeNHsUrVIWiRcUIdzF4BqA==
+"@microgamma/apigator@^1.15.3":
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/@microgamma/apigator/-/apigator-1.15.3.tgz#c7a684ed372f8c49242007b882cd199782b66084"
+  integrity sha512-eubk6KIhxiZbienbT17J3O0L2N3OQWUiBbABOFI3UyfPsBZ05Bg+bCLDYXQ8+7uUzKEh1uwoYRVsYWS9G1KYxA==
   dependencies:
-    "@microgamma/digator" "^1.15.0"
-    "@microgamma/loggator" "^1.12.3"
+    "@microgamma/digator" "^1.15.3"
+    "@microgamma/loggator" "^1.15.3"
     "@types/aws-lambda" "^8.10.11"
     reflect-metadata "^0.1.12"
 
-"@microgamma/digator@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@microgamma/digator/-/digator-1.15.0.tgz#74e23b49bf23f7c59001e4ec5e4061acc3929f35"
-  integrity sha512-y0YDefIR+YV/2ABZobsTmZYRhvhfBCzak8kmgssZ24ybFWw425FyMEgB/53NZ4EuLy4NmtWhcSqJ1qJ7uBzqOg==
+"@microgamma/digator@^1.15.3":
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/@microgamma/digator/-/digator-1.15.3.tgz#0f9bdcdf461949a8207e1678a003b7448cc4539c"
+  integrity sha512-bLqGusVU2b7H/Ooki15ePprwHDoCBweRpaOeLG2gkkqagrg28wWZi8lOsjiv2z8AaTKLdILSH9+94sccN+NZ4w==
   dependencies:
-    "@microgamma/loggator" "^1.12.3"
+    "@microgamma/loggator" "^1.15.3"
     reflect-metadata "^0.1.12"
 
-"@microgamma/loggator@^1.12.3":
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/@microgamma/loggator/-/loggator-1.12.3.tgz#3e88de3678a48030b4dd85902c9d35b45a5ec731"
-  integrity sha512-oFx69bNqqbygcwHmacx29d2azplul5d771Ub6yZYd3qDDxZEpo9u80i+sx7eMT6vycNpN9MxTV02AWo90mH1lQ==
+"@microgamma/loggator@^1.15.3":
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/@microgamma/loggator/-/loggator-1.15.3.tgz#1142bc38d69dbef11fde373cc08d4bec72c9f001"
+  integrity sha512-Fr1yjtxbIKEkq7+CF966dBJqE0C1GMxDhQhvfMm7B2b1cHl06ZXOBT+NX08Iex+DO1YT16pZ9kYF9o5Go7IPOw==
   dependencies:
     "@types/debug" "^0.0.30"
     debug "^4.1.1"
     reflect-metadata "^0.1.12"
 
-"@microgamma/serverless-apigator@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@microgamma/serverless-apigator/-/serverless-apigator-1.15.0.tgz#246ccbc70553bc9806f8e0d2f52ef43d87e1f522"
-  integrity sha512-xm/Mne7pQE3VdnMsrCnB1JukAGnW5ZLwm+g+2ueGocDbAdkEG9XMG1fHKzwcyKc4AM99uhmyrwLWxc++A56YVA==
+"@microgamma/serverless-apigator@^1.15.3":
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/@microgamma/serverless-apigator/-/serverless-apigator-1.15.3.tgz#7c35c6878ea3ffdbad17a467bc55380df886eb5f"
+  integrity sha512-LwvDYmnDK71z4jaSHhwhD+uNbfesuKNwT7cXMqDsmNBqyoMReIHiUL2ybUarHCgpirOEIdl1e6nHnw6HVXqtcQ==
   dependencies:
-    "@microgamma/loggator" "^1.12.3"
+    "@microgamma/loggator" "^1.15.3"
     "@types/serverless" "^1.18.4"
 
 "@nodelib/fs.scandir@2.1.3":
