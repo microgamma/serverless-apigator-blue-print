@@ -63,7 +63,7 @@
     "@microgamma/serverless-apigator": "^1.15.3",
     "@types/express": "^4.17.2",
     "ava": "2.2.0",
-    "codecov": "^3.5.0",
+    "codecov": "^3.7.1",
     "cz-conventional-changelog": "^2.1.0",
     "express": "^4.17.1",
     "gh-pages": "^2.0.1",
